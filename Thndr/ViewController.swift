@@ -8,13 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var backgroundView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("Hello, World")
+        setBackground()
+        
     }
-
-
+    
+    // Set background based on time of day
+    func setBackground() {
+        let hour = Calendar.current.component(.hour, from: Date())
+        switch hour {
+        case 6...17:
+            backgroundView.image = UIImage(named: "DayBackground")
+        default:
+            backgroundView.image = UIImage(named: "NightBackground")
+        }
+    }
 }
-
