@@ -24,6 +24,7 @@
 		5AB469CA279CA11400945867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AB469CD279CA11400945867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AB469CF279CA11400945867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB469D5279CA14000945867 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		5AB469C0279CA11300945867 /* Thndr */ = {
 			isa = PBXGroup;
 			children = (
+				5AB469D5279CA14000945867 /* README.md */,
 				5AB469C1279CA11300945867 /* AppDelegate.swift */,
 				5AB469C3279CA11300945867 /* SceneDelegate.swift */,
 				5AB469C5279CA11300945867 /* ViewController.swift */,
